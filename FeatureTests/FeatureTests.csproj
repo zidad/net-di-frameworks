@@ -127,11 +127,14 @@
       <HintPath>..\#packages\structuremap.2.6.4.1\lib\net40\StructureMap.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.Composition.Registration" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
       <Private>False</Private>
       <Aliases>global</Aliases>
     </Reference>
+    <Reference Include="System.Reflection.Context" />
     <Reference Include="System.Xml" />
     <Reference Include="xunit">
       <HintPath>..\#packages\xunit.1.9.1\lib\net20\xunit.dll</HintPath>
@@ -144,6 +147,7 @@
     <Compile Include="Adapters\AutofacAdapter.cs" />
     <Compile Include="Adapters\CastleAdapter.cs" />
     <Compile Include="Adapters\CatelAdapter.cs" />
+    <Compile Include="Adapters\MefAdapter.cs" />
     <Compile Include="Adapters\SpeediocAdapter.Disabled.cs" />
     <Compile Include="Adapters\MunqAdapter.cs" />
     <Compile Include="Adapters\MugenAdapter.cs" />
